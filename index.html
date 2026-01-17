@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Compras Inteligente</title>
+  <link rel="icon" href="./pngtree-full-grocery-cart-with-various-food-products-png-image_14304612.png">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+  <div class="app">
+    <header>
+      <img src="./pngtree-full-grocery-cart-with-various-food-products-png-image_14304612.png" alt="Ícone da lista de compras" class="logo" />
+      <h1>Lista de Compras</h1>
+    </header>
+
+    <!-- CALENDÁRIO -->
+    <div class="calendar">
+      <button id="prevMes">◀</button>
+      <span id="mesAtual"></span>
+      <button id="nextMes">▶</button>
+    </div>
+
+    <!-- ABAS -->
+    <div class="tabs">
+      <button class="tab active" data-cat="alimentos">🍞 Alimentos</button>
+      <button class="tab" data-cat="higiene">🧴 Higiene</button>
+      <button class="tab" data-cat="limpeza">🧹 Limpeza</button>
+    </div>
+
+    <!-- FORMULÁRIO -->
+    <form class="form" id="formAdicionar">
+      <label for="produtoSelect">Produto existente:</label>
+      <select id="produtoSelect"></select>
+
+      <label for="novoProduto">Novo produto:</label>
+      <input type="text" id="novoProduto" placeholder="Ex: Doce de leite" />
+
+      <label for="categoriaNovo">Categoria:</label>
+      <select id="categoriaNovo">
+        <option value="alimentos">Alimentos</option>
+        <option value="higiene">Higiene</option>
+        <option value="limpeza">Limpeza</option>
+      </select>
+
+      <div class="form-actions">
+        <button type="button" id="btnSalvarProduto">💾 Salvar Produto</button>
+        <button type="button" id="btnExcluirProduto">🗑️ Excluir Produto</button>
+      </div>
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" min="1" value="1" />
+
+      <label for="valor">Valor unitário (R$):</label>
+      <!-- CORRIGIDO: agora aceita vírgula -->
+      <input type="text" id="valor" inputmode="decimal" placeholder="Ex: 2,50" />
+
+      <button type="submit" id="btnAdicionar">➕ Adicionar à Lista</button>
+    </form>
+
+    <!-- PRODUTOS RÁPIDOS -->
+    <div class="section-title">Seus Produtos</div>
+    <div id="produtosRapidos" class="produtos-rapidos"></div>
+
+    <!-- LISTA -->
+    <h2>📋 Compras do Mês</h2>
+    <ul id="lista"></ul>
+
+    <div class="total">
+      Total: R$ <span id="total">0,00</span>
+    </div>
+
+    <button class="limpar" id="btnLimparMes">🗑️ Limpar Mês</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

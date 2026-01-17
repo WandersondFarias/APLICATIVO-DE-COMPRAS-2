@@ -1,0 +1,15 @@
+{
+  "name": "Lista de Compras",
+  "short_name": "Compras",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "pngtree-full-grocery-cart-with-various-food-products-png-image_14304612.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
