@@ -101,14 +101,13 @@ O app será instalado como um aplicativo real
 Todos os dados ficam armazenados no LocalStorage do navegador, separados por mês e ano.
 Mesmo fechando o navegador, as informações continuam salvas.
 
-<div align="center">
 
 <p align="center">
   <img src="./logo.png" width="120" />
 </p>
 
 <p align="center">
-  <a href=" https://wandersondfarias.github.io/APLICATIVO-DE-COMPRAS-2/" target="_blank">
+  <a href="https://wandersondfarias.github.io/SISTEMA-FINACEIRO-CALHAS-SANTO-EXPEDITO/" target="_blank">
     🚀 <b>Acessar Sistema Online</b>
   </a>
 </p>
@@ -126,6 +125,4 @@ Mesmo fechando o navegador, as informações continuam salvas.
   </a>
 </p>
 
-
-
-
+<hr>
