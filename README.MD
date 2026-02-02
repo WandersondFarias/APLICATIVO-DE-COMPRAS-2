@@ -1,111 +1,76 @@
-# 📱 Lista de Compras Inteligente (PWA)
+📱 Lista de Compras Inteligente (PWA)
 
-Aplicativo web moderno desenvolvido para **controle de compras mensais**, com foco em praticidade, organização e uso offline.  
-Pode ser **instalado no celular como um aplicativo real**, funcionando mesmo sem internet.
+Aplicativo web desenvolvido para controle de compras mensais, com categorias, cálculo automático de valores, salvamento local e funcionamento offline. Pode ser instalado no celular como um aplicativo real.
 
----
+🚀 Tecnologias Utilizadas
 
-## 🌐 Demonstração Online
+HTML5 – Estrutura da interface
 
-👉 **Acesse o sistema:**  
-🔗 https://SEU-LINK-AQUI
+CSS3 – Layout moderno, responsivo e modo escuro
 
-> Exemplo: GitHub Pages, Vercel ou Netlify
+JavaScript – Lógica do sistema, cálculos, calendário e armazenamento
 
----
+LocalStorage – Salvamento dos dados no navegador
 
-## 🚀 Tecnologias Utilizadas
+Service Worker – Funcionamento offline
 
-- **HTML5** – Estrutura semântica da interface  
-- **CSS3** – Layout moderno, responsivo e modo escuro  
-- **JavaScript (Vanilla JS)** – Lógica do sistema, cálculos e interações  
-- **LocalStorage** – Armazenamento local dos dados  
-- **Service Worker** – Funcionamento offline  
-- **Manifest.json** – Instalação como aplicativo (PWA)
+Manifest.json – Instalação como aplicativo (PWA)
 
----
 
-## 📂 Estrutura do Projeto
-
-```bash
-📁 lista-compras-pwa
-├── index.html          # Interface principal
-├── style.css           # Estilos visuais
-├── script.js           # Lógica do sistema
-├── service-worker.js   # Cache e funcionamento offline
-├── manifest.json       # Configuração do PWA
-└── icon.png            # Ícone do aplicativo
-
+📂 Estrutura dos Arquivos
+/index.html        → Interface principal  
+/style.css         → Estilo visual  
+/script.js         → Lógica do sistema  
+/service-worker.js → Cache offline  
+/manifest.json     → Configuração do app instalável  
+/icon.png          → Ícone do aplicativo  
 
 🧠 Funcionalidades
 
-📅 Controle de compras por mês e ano
+📅 Controle por mês com calendário
 
-🛒 Categorias organizadas:
+🛒 Categorias: Alimentos, Higiene e Limpeza
 
-Alimentos
+➕ Adição de produtos com quantidade e valor
 
-Higiene
+💰 Cálculo automático do total
 
-Limpeza
-
-➕ Adição de produtos com:
-
-Nome
-
-Quantidade
-
-Valor
-
-💰 Cálculo automático do total mensal
-
-🧾 Listas separadas por período
+🧾 Lista separada por mês
 
 💾 Salvamento automático no navegador
 
-❌ Remoção individual de itens
+❌ Remoção de itens
 
-🧹 Limpeza completa das compras do mês
+🧹 Limpar compras do mês
 
-📱 Instalação como aplicativo no celular
+📱 Instalação no celular como aplicativo
 
-🌐 Funcionamento offline
+🌐 Funciona offline
 
 
-📲 Como Instalar no Celular (PWA)
+▶️ Como Executar no Computador
 
-Hospede o projeto (GitHub Pages, Netlify, Vercel, etc.)
+Abra a pasta do projeto
+
+Clique duas vezes em index.html
+
+O aplicativo abrirá no navegador
+
+📲 Como Instalar no Celular (como App)
+
+Hospede os arquivos no GitHub Pages ou outro servidor
 
 Acesse o link pelo celular
 
 No navegador, toque em “Adicionar à tela inicial”
 
-O app será instalado como um aplicativo nativo 📲
-
-💾 Armazenamento de Dados
-
-Os dados são armazenados utilizando LocalStorage, organizados por mês e ano.
-Mesmo fechando o navegador ou desligando o celular, as informações permanecem salvas.
-
-⚠️ Os dados ficam vinculados ao dispositivo/navegador utilizado.
-
-🖼️ Preview do Sistema
-
-Basta adicionar uma imagem chamada preview.png na pasta do projeto
-ou alterar o nome conforme sua imagem
-
-👨‍💻 Autor
-<p align="center">
-  <a href="https://github.com/wandersondfarias">
-    <img src="https://img.shields.io/badge/GitHub-Perfil-black?style=flat&logo=github">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/wandersonfariaswf/">
-    <img src="https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin">
-  </a>
-</p>
+O app será instalado como um aplicativo real
 
 
+💾 Como os Dados São Salvos
+
+Todos os dados ficam armazenados no LocalStorage do navegador, separados por mês e ano.
+Mesmo fechando o navegador, as informações continuam salvas.
 
 
 
