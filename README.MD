@@ -8,24 +8,6 @@
     🚀 <b>Acessar Sistema Online</b>
   </a>
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Desenvolvido%20por-Wanderson%20de%20Farias-blue?style=for-the-badge">
-</p>
-
-<p align="center">
-  <a href="https://github.com/wandersondfarias">
-    <img src="https://img.shields.io/badge/GitHub-Perfil-black?style=flat&logo=github">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/wandersonfariaswf/">
-    <img src="https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin">
-  </a>
-</p>
-
-<hr>
-
-
-
 
 📱 Lista de Compras Inteligente (PWA)
 
