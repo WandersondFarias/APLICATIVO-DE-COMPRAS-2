@@ -95,10 +95,16 @@ Basta adicionar uma imagem chamada preview.png na pasta do projeto
 ou alterar o nome conforme sua imagem
 
 👨‍💻 Autor
+<p align="center">
+  <a href="https://github.com/wandersondfarias">
+    <img src="https://img.shields.io/badge/GitHub-Perfil-black?style=flat&logo=github">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/wandersonfariaswf/">
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin">
+  </a>
+</p>
 
-Wanderson de Farias
-💼 Desenvolvedor Web
-📌 Projeto desenvolvido para cliente e uso prático no controle de compras mensais.
 
 
 
