@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="./LOGO CALHAS SANTO EXPEDITO.jpg" width="120" />
+  <img src="./logo.png" width="120" />
 </p>
 
 
