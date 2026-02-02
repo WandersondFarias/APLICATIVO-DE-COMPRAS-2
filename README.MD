@@ -74,7 +74,7 @@ Mesmo fechando o navegador, as informações continuam salvas.
 
 
 <p align="center">
-  <img src="./LOGO CALHAS SANTO EXPEDITO.jpg" width="120" />
+  <img src="./logo.png" width="120" />
 </p>
 
 <p align="center">
