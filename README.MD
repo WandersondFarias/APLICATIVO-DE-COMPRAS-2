@@ -79,6 +79,7 @@ O app será instalado como um aplicativo real
 Todos os dados ficam armazenados no LocalStorage do navegador, separados por mês e ano.
 Mesmo fechando o navegador, as informações continuam salvas.
 
+<div align="center">
 
 <p align="center">
   <img src="./logo.png" width="120" />
