@@ -1,3 +1,10 @@
+<div align="center">
+
+<p align="center">
+  <img src="./LOGO CALHAS SANTO EXPEDITO.jpg" width="120" />
+</p>
+
+
 📱 Lista de Compras Inteligente (PWA)
 
 Aplicativo web desenvolvido para controle de compras mensais, com categorias, cálculo automático de valores, salvamento local e funcionamento offline. Pode ser instalado no celular como um aplicativo real.
