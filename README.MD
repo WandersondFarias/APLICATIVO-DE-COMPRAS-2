@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href=" https://wandersondfarias.github.io/APLICATIVO-DE-COMPRAS-2/" target="_blank">
+  <a href="  https://wandersondfarias.github.io/APLICATIVO-DE-COMPRAS-2/" target="_blank">
     🚀 <b>Acessar Sistema Online</b>
   </a>
 </p>
